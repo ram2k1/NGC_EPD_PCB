@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NGC_EPD_SymbolLib")(type "KiCad")(uri "${KIPRJMOD}/NGC_EPD_SymbolLib.kicad_sym")(options "")(descr ""))
+)
