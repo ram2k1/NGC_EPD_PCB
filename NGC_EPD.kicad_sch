@@ -1136,118 +1136,6 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna_Loop"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Antenna_Loop"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Loop antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "loop antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_Loop_0_1"
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -2.54) (xy 5.08 0) (xy 1.27 3.81) (xy -2.54 0) (xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_Loop_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3946,22 +3834,10 @@
 		(uuid "1037106f-4152-4f7b-b6da-b66ff839f6c8")
 	)
 	(junction
-		(at 27.94 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ac21271-dd57-49d2-b590-25542296ccf6")
-	)
-	(junction
 		(at 52.07 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b108952-a8e7-4dc8-b0f8-f3447f6e3d50")
-	)
-	(junction
-		(at 36.83 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c1004a0-9ee2-4192-b738-14722a647679")
 	)
 	(junction
 		(at 64.77 101.6)
@@ -3986,12 +3862,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27ae9cd6-1720-4039-adda-3de039bff2e0")
-	)
-	(junction
-		(at 36.83 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "318f2110-f5de-4375-8ac6-8c6d13f9990c")
 	)
 	(junction
 		(at 17.78 25.4)
@@ -4192,12 +4062,6 @@
 		(uuid "f1ba2748-e569-46d1-bf5d-11abcf133613")
 	)
 	(junction
-		(at 27.94 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4676eb9-6518-445e-9784-1cd38ae6395b")
-	)
-	(junction
 		(at 64.77 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4361,6 +4225,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 63.5) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0530592d-d98f-4873-8bf9-942d7fea483a")
+	)
+	(wire
+		(pts
 			(xy 226.06 81.28) (xy 226.06 73.66)
 		)
 		(stroke
@@ -4511,16 +4385,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 57.15) (xy 22.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225c2b7b-87aa-4bf1-bcb5-bd64a2da63b7")
-	)
-	(wire
-		(pts
 			(xy 243.84 30.48) (xy 243.84 33.02)
 		)
 		(stroke
@@ -4668,16 +4532,6 @@
 			(type default)
 		)
 		(uuid "40b60a07-8308-472a-b48f-0a5f90b7ab46")
-	)
-	(wire
-		(pts
-			(xy 44.45 58.42) (xy 36.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "421c3f33-9836-4e10-a52d-f60e12587766")
 	)
 	(wire
 		(pts
@@ -4901,16 +4755,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 36.83 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6db44dd4-40ae-4674-b52d-1b386426c3ff")
-	)
-	(wire
-		(pts
 			(xy 198.12 130.81) (xy 203.2 130.81)
 		)
 		(stroke
@@ -4948,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "72f42366-c126-4a0f-9dc4-53a5389f089f")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785c8bc4-67f8-4f5d-a7cb-dcb5cbc41536")
 	)
 	(wire
 		(pts
@@ -5191,16 +5045,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 53.34) (xy 27.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3b1c6f-8d74-493e-995c-ff2cead18fc8")
-	)
-	(wire
-		(pts
 			(xy 92.71 116.84) (xy 92.71 121.92)
 		)
 		(stroke
@@ -5291,16 +5135,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 54.61) (xy 22.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3527796-aaa5-4101-9ebc-5850e9e18c0e")
-	)
-	(wire
-		(pts
 			(xy 204.47 101.6) (xy 203.2 101.6)
 		)
 		(stroke
@@ -5328,16 +5162,6 @@
 			(type default)
 		)
 		(uuid "b65d1379-5868-4bad-a9be-e5660a573c69")
-	)
-	(wire
-		(pts
-			(xy 27.94 58.42) (xy 36.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c0bfe6-604f-4f71-81f9-187b60b2dbe2")
 	)
 	(wire
 		(pts
@@ -5521,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 53.34) (xy 41.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d6e03f-5f82-4065-bb8d-c35b7358189d")
+	)
+	(wire
+		(pts
 			(xy 205.74 64.77) (xy 207.01 64.77)
 		)
 		(stroke
@@ -5571,16 +5405,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 58.42) (xy 27.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a9e766-c278-409c-ae3e-98dac3760c5e")
-	)
-	(wire
-		(pts
 			(xy 238.76 91.44) (xy 238.76 81.28)
 		)
 		(stroke
@@ -5598,16 +5422,6 @@
 			(type default)
 		)
 		(uuid "e31f996a-d758-41c3-a0ad-9afe1c717d19")
-	)
-	(wire
-		(pts
-			(xy 44.45 40.64) (xy 44.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4015884-3422-4d12-8d12-5394e5523fa9")
 	)
 	(wire
 		(pts
@@ -5708,16 +5522,6 @@
 			(type default)
 		)
 		(uuid "f5da2534-bff9-4e8c-af46-132ad73e6b73")
-	)
-	(wire
-		(pts
-			(xy 27.94 53.34) (xy 36.83 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d393a9-9ee4-4c0b-8c31-c7b798bb8cd3")
 	)
 	(wire
 		(pts
@@ -7334,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -7832,76 +7636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 36.83 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ebaf161-2a73-42d3-8c74-4541c62b56bf")
-		(property "Reference" "C18"
-			(at 39.37 54.6162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 39.37 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 36.83 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33b28493-25d3-4e87-acd0-df7b307bae9a")
-		)
-		(pin "1"
-			(uuid "e3704063-0676-4c52-9711-edf0aaa6e768")
-		)
-		(instances
-			(project "NGC_EPD"
-				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 207.01 64.77 90)
 		(unit 1)
@@ -8028,76 +7762,6 @@
 			(project ""
 				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fa221fc-a91f-43f0-87bd-feb8280f4b76")
-		(property "Reference" "C19"
-			(at 29.972 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 30.48 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5521f3a-1312-41d9-ad18-70ace7ba8fbf")
-		)
-		(pin "1"
-			(uuid "07a6c44a-498a-4707-af28-132b23ad2f38")
-		)
-		(instances
-			(project "NGC_EPD"
-				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8782,74 +8446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Loop")
-		(at 17.78 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5107303c-4ea6-4e77-8b70-c6ed8bd9df39")
-		(property "Reference" "AE1"
-			(at 18.034 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Antenna_Loop"
-			(at 19.558 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Loop antenna"
-			(at 17.78 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afab44a1-22a1-4ef6-a11f-1f3163f7dd0e")
-		)
-		(pin "2"
-			(uuid "6035878e-ccca-498d-9a44-f1b04031453a")
-		)
-		(instances
-			(project ""
-				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 90.17 176.53 0)
 		(unit 1)
@@ -8947,7 +8543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 220.98 142.24 90)
 			(effects
 				(font
@@ -10736,7 +10332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 130.81 90)
 			(effects
 				(font
@@ -10773,6 +10369,73 @@
 			(project ""
 				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 36.83 58.42 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f64457-4a87-46d8-9e6a-65c3efeff9cd")
+		(property "Reference" "JP3"
+			(at 30.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ANT"
+			(at 32.766 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91ff208-2c80-4453-9213-d437d0487016")
+		)
+		(pin "2"
+			(uuid "1e7d87cf-eff2-4ee0-93b7-cf9668376ff2")
+		)
+		(instances
+			(project "NGC_EPD"
+				(path "/fd972f2f-4f56-4d26-afa4-e9466c995269"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11172,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -11426,7 +11089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 180.34 66.04 0)
 			(effects
 				(font
