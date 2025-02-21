@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Description" "Suitable and Optimized for NFC Communication Controlled Actuation and Sensing"
-			(at 0 0 0)
+			(at -0.254 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			)
 		)
 		(property "PackageReference" "PG-VQFN-32-20"
-			(at -39.37 -19.558 0)
+			(at -41.656 -3.556 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -71,7 +71,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at -46.99 -34.29 0)
+			(at -47.498 -7.366 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
