@@ -63,7 +63,16 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|109670000|65065000|44eb6408-bafb-45d3-b29d-356f54fa9cba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|109227500|59370000|2ab278c1-f556-4dea-94fd-d95c029cdedc|755616ab-617a-4ba7-ab3c-d7d7c5f5e018",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,10 +148,10 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.1524,
         "min_text_height": 0.5642,
-        "min_text_thickness": 0.152,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1524,
-        "min_via_annular_width": 0.1524,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -512,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "C:/Users/NarneS/Downloads/EPD_PCB_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
